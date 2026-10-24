@@ -105,7 +105,7 @@ Rules:
             if getattr(agent, "tool_name", None)
         }
         self.responder = next(
-            agent for agent in agents if agent.name == "response_executor"
+            agent for agent in agents if agent.name == "response_agent"
         )
         self.graph = self.__build_graph()
 

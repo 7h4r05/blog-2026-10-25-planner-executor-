@@ -9,7 +9,7 @@ from core.logger import log
 class ResponseAgent(BaseAgent):
     """Uses an LLM to explain verified workflow outcomes."""
 
-    name = "response_executor"
+    name = "response_agent"
     description = "Explains the final infrastructure workflow result."
 
     SYSTEM_PROMPT = """
