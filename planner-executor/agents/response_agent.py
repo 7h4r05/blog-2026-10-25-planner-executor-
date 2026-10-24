@@ -6,7 +6,7 @@ from core.history import found_resources, generated_hcl, without_hcl
 from core.logger import log
 
 
-class ResponseExecutor(BaseAgent):
+class ResponseAgent(BaseAgent):
     """Uses an LLM to explain verified workflow outcomes."""
 
     name = "response_executor"
