@@ -2,7 +2,7 @@
 from core.ollama_client import OllamaClient
 from core.manager import AgentManager
 from core.config import OLLAMA_URL, OLLAMA_MODEL
-from agents.planner import PlannerAgent
+from agents.planner_agent import PlannerAgent
 from core.logger import log
 
 def main():
